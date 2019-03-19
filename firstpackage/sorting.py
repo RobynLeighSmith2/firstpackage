@@ -1,6 +1,6 @@
 def bubble_sort(items):
     '''Return array of items, sorted in ascending order'''
-out = items.copy() # in place protection, does not change original array
+    out = items.copy() # in place protection, does not change original array
     for i in range(len(out)):
         for j in range(len(out)-1-i):
             if out[j] > out[j+1]:
@@ -46,7 +46,7 @@ def quick_sort(items):
     ----------
     items : list
         list of unordered numbers
-        
+
     Returns
     -------
     list
